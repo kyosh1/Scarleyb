@@ -1,11 +1,11 @@
-const CommandService = require('../services/secondarys/CommandService')
+const CommandService = require('../../services/secondarys/CommandService')
 
 class PingCommand extends CommandService {
     constructor(client) {
         super(client);
         this.client = client;
-
         this.name = 'ping';
+        this.aliases = 'p';
     }
 
     async run(message, args) {
