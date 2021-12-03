@@ -1,7 +1,6 @@
 class Command {
     constructor(client) {
         this.client = client;
-        
         this.name = '';
     }
 

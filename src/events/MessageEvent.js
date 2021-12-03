@@ -1,7 +1,6 @@
 class MessageEvent {
     constructor(client) {
         this.client = client;
-
         this.name = 'messageCreate'
     }
 
