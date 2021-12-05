@@ -2,6 +2,9 @@ require('dotenv').config();
 
 const Scarlet = require("./services/ScarletClient");
 
+const Database = require ('./Database/index');
+Database.start();
+
 const client = new Scarlet({ intents: 767 });
 
 client.login(process.env.TOKEN).then(() => {
