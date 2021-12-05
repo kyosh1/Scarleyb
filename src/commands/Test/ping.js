@@ -1,6 +1,6 @@
 const {MessageEmbed} = require ('discord.js')
-const Emojis = require ('../utils/Emojis')
-const CommandService = require('../services/secondarys/CommandService')
+const Emojis = require ('../../utils/Emojis')
+const CommandService = require('../../services/secondarys/CommandService')
 
 
 class PingCommand extends CommandService {
